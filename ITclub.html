@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/club.css">
+	<title></title>
+</head>
+<style type="text/css">
+	*{
+		color: dodgerblue;
+		font-family: 'DotGothic16';
+		background: black;
+	}
+	#zero {
+		height: 100%;
+		width: 40%;
+		border-radius: 10px;
+		border: white solid 3px;
+		margin: 5px;
+		
+	}
+	.icon {
+		width: 190px;
+		height: 160px;
+
+	}
+	.title {
+		
+		margin-down:40px ;
+		margin-left: 100px;
+	}
+	#second{
+		float: right;
+	}
+	#first {
+		float: left;
+	}
+	.div {
+		border: white solid 3px;
+		border-radius: 30px;
+		height: 40%;
+		width: 50%;
+		padding: 10px;
+		font-size: 35px;
+		display: flex;
+		justify-content: space-beetwen;
+	}
+	.img {
+		height: 40%;
+		width: 100%;
+		margin: 0px;
+		animation : light 1.5s infinite alternate; 
+
+	}
+	@keyframes light
+	{
+		0%
+		{
+		filter: brightness(0.9);
+/*Яркость/*
+/* filter: brightness(1.5);*/
+/*  Контрасность/
+/*  filter: contrast(140%);*/
+/*  Перевод вчёрно-белое/
+/*  filter: grayscale(1.5);*/
+/* Насыщенность цветов*/
+/*filter: saturate(200%);*/
+		}
+		100%
+		{
+		filter: brightness(2.9999);
+		}
+	}
+</style>
+
+<body>
+	<nav class="top-nav">
+			<a href="#zero" class="nav-link">главное</a>
+			<a href="#first" class="nav-link">кто мы такие</a>
+			<a href="#second" class="nav-link">асортимент</a>
+			<a href="#third" class="nav-link">фотки</a>
+			<a href="#fourth" class="nav-link">контакы</a>
+			<div class="search-container">
+				<input type="text" id="search">
+			</div>
+		</nav>
+		<main>
+		 	<div id="first" class="div">
+		 	<p>
+		 	  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea c
+		 	  </p>
+		 	  <div id="zero">
+			<img src="css/icon.webp" class="icon">
+		 	  </div>
+		  	</div>
+		  	<img class="img" src="https://static.miraheze.org/countryhumanswikiruwiki/0/01/Гирлянда_с_прозрачным_фоном.png">
+		  	<div id="second" class="div">
+		  		<div id="zero">
+			<img src="css/icon.webp" class="icon">
+		 	  </div>
+		 	  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea c
+		  	</div>
+		  	<img class="img" src="https://static.miraheze.org/countryhumanswikiruwiki/0/01/Гирлянда_с_прозрачным_фоном.png">
+		  	<div id="second" class="div">
+		  	<div id="first" class="div">
+		 	<p>
+		 	  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea c
+		 	  </p>
+		 	  <div id="zero">
+			<img src="css/icon.webp" class="icon">
+		 	  </div>
+
+		</main>
+</body>
+</html>
